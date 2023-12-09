@@ -1,0 +1,38 @@
+{
+  "name": "imed-jaberi-express-boilerplate",
+  "version": "1.0.0",
+  "description": "Express.js boilerplate created with love by Imed Jaberi to ship a better dev experience.",
+  "main": "app.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "start": "node app.js",
+    "start:dev": "node --watch app.js"
+  },
+  "keywords": [
+    "node.js",
+    "express.js"
+  ],
+  "author": {
+    "name": "Imed Jaberi",
+    "email": "imed-jaberi@outlook.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "http-proxy-middleware": "^2.0.6",
+    "morgan": "^1.10.0",
+    "xss-clean": "^0.1.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "module-alias": "^2.2.3",
+    "prettier": "^3.1.0"
+  },
+  "_moduleAliases": {
+    "@app": "."
+  }
+}

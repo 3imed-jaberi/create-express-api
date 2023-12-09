@@ -1,0 +1,33 @@
+{
+  "name": "@3imed-jaberi/create-express-api",
+  "version": "1.0.0-alpha.1",
+  "description": "CLI help to generate express.js boilerplate to ship better dev experience",
+  "main": "index.js",
+  "bin": {
+    "@3imed-jaberi/create-express-api": "index.js",
+    "create-express-api": "index.js",
+    "cea": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3imed-jaberi/create-express-api.git"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "express",
+    "create-express-api"
+  ],
+  "author": {
+    "name": "Imed Jaberi",
+    "email": "imed-jaberi@outlook.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  }
+}
