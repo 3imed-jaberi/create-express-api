@@ -1,6 +1,6 @@
 {
   "name": "@3imed-jaberi/create-express-api",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "CLI help to generate express.js boilerplate to ship better dev experience",
   "main": "index.js",
   "bin": {
